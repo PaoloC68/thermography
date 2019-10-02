@@ -35,7 +35,7 @@ Here follow the steps to install *Thermography* system-wide.
 Download the git repository:
 
 ``` lang=bash
-    $ git clone https://github.com/cdeldon/thermography.git
+    $ git clone https://github.com/PaoloC68/thermography.git
     $ cd thermography/
 ```
 
