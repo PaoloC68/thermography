@@ -413,7 +413,7 @@ class Ui_ThermoGUI_main_window(object):
         self.video_to_index.setAutoFillBackground(False)
         self.video_to_index.setMinimum(0)
         self.video_to_index.setMaximum(100000)
-        self.video_to_index.setProperty("value", 500)
+        self.video_to_index.setProperty("value", 299)
         self.video_to_index.setObjectName("video_to_index")
         self.video_index_panel.addWidget(self.video_to_index, 1, 1, 1, 1)
         self.verticalLayout_3.addLayout(self.video_index_panel)
@@ -986,4 +986,3 @@ if __name__ == "__main__":
     ui.setupUi(ThermoGUI_main_window)
     ThermoGUI_main_window.show()
     sys.exit(app.exec_())
-

@@ -8,7 +8,7 @@ from thermography.classification import Inference
 from thermography.classification.models import ThermoNet3x3
 from thermography.settings import get_resources_dir
 
-input_folder = "Z:/SE/SEI/Servizi Civili/Del Don Carlo/termografia/padded_dataset/Ghidoni1/0-1000"
+input_folder = "/Users/paolo/thermography/padded_dataset/Calvi1/0-1000"
 num_images = 300
 
 if __name__ == '__main__':

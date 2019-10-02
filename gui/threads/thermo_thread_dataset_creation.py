@@ -41,7 +41,7 @@ class ThermoDatasetCreationThread(QThread):
 
         self.camera_param_file_name = os.path.join(settings_dir, "camera_parameters.json")
         Logger.debug("Using default camera param file: {}".format(self.camera_param_file_name))
-        tg.settings.set_data_dir("Z:/SE/SEI/Servizi Civili/Del Don Carlo/termografia/")
+        tg.settings.set_data_dir("/Users/paolo/thermography/")
 
     def run(self):
         """Function executed when the current thread is created."""

@@ -58,7 +58,8 @@ class Inference:
 
     def __del__(self):
         Logger.info("Deleting inference object")
-        self.sess.close()
+        if hasattr(self, 'sess'):
+            self.sess.close()
 
     @property
     def model(self):

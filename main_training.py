@@ -12,7 +12,7 @@ from thermography.classification.models import ThermoNet3x3
 def main():
     ########################### Input and output paths ###########################
 
-    dataset_path = "Z:/SE/SEI/Servizi Civili/Del Don Carlo/termografia/padded_dataset"
+    dataset_path = "/Users/paolo/thermography/padded_dataset"
     dataset_directories = create_directory_list(dataset_path)
 
     print("Input dataset directories:")
@@ -20,7 +20,7 @@ def main():
         print("  ({}) {}".format(path_index, path))
     print()
 
-    output_data_path = "Z:/SE/SEI/Servizi Civili/Del Don Carlo/termografia/output"
+    output_data_path = "/Users/paolo/thermography/output"
     print("Output data path:\n      {}".format(output_data_path))
     print()
 

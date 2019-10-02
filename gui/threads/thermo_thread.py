@@ -87,7 +87,7 @@ class ThermoGuiThread(QThread):
         settings_dir = tg.settings.get_settings_dir()
 
         self.camera_param_file_name = os.path.join(settings_dir, "camera_parameters.json")
-        tg.settings.set_data_dir("Z:/SE/SEI/Servizi Civili/Del Don Carlo/termografia/")
+        tg.settings.set_data_dir("/Users/paolo/thermography/")
         self.input_file_name = os.path.join(tg.settings.get_data_dir(), "Ispez Termografica Ghidoni 1.mov")
         Logger.debug("Using default camera param file: {}\n"
                      "Default input file name: {}".format(self.camera_param_file_name, self.input_file_name))
